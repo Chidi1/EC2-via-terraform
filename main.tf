@@ -14,7 +14,7 @@ module "security_group" {
 
   name        = "ec2sg"
   description = "Security group for usage with test EC2 instance"
-  vpc_id      = "vpc-02b8cc37bfdc939c4"
+  vpc_id      = "vpc-02b8cxxxxxxxxxxxxxc4"
 
   ingress_cidr_blocks = ["0.0.0.0/0"]
   ingress_rules       = ["http-80-tcp", "all-icmp"]
